@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betwill</title>
+    <link rel="icon" href="/images/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="dark-body">
+
+    <div class="switch-mode">
+    </div>
+
+    <header>
+        <div class="menu-area">
+            <div class="logo-section">
+                <a href="">
+                    <img src="/images/LOGO.png" alt="">
+                </a>
+            </div>
+            <div class="main-menu">
+                <nav>
+                    <ul>
+                        <li><a href="">Sports</a></li>
+                        <li class="active"><a href="">In-Play</a></li>
+                        <li><a href="">Casino</a></li>
+                        <li><a href="">Live Casino</a></li>
+                        <li><a href="">Virtual Sports</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="login-area">
+            <div class="join">
+                <span>Join</span>
+            </div>
+            <div class="log-in">
+                <span>Log In</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-wrapper">
+        <div class="slider-container">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/images/slider.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/images/slider.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/images/slider.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/images/slider.png" alt=""></div>
+                </div>
+                <div class="swiper-button-next swiper-button-white"></div>
+                <div class="swiper-button-prev swiper-button-white"></div>
+            </div>
+        </div>
+        <div class="filter-section">
+            <div class="top-filter">
+                <ul>
+                    <li>ALL Games <span></span></li>
+                    <li>ALL Providers</li>
+                    <label for="">
+                        <input type="search" id="search" name="search" autocomplete="off" placeholder="Search Games...">
+                        <img src="/images/search.png" alt="">
+                    </label>
+                </ul>
+            </div>
+            <div class="filter-category">
+                <ul>
+                    <li categoryType="all" class="active">
+                        <img src="images/video.png" alt="">
+                        <span>Video Slots</span>
+                    </li>
+                    <li>
+                        <img src="images/star.png" alt="">
+                        <span>
+                            Popular Slots
+                        </span>
+                    </li>
+                    <li categoryType="fav">
+                        <img src="images/fav.png" alt="">
+                        <span class="popular">
+                            FAV
+                            <div class="counter"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <img src="images/new.png" alt="">
+                        <span>New Games</span>
+                    </li>
+                    <li>
+                        <img src="images/table.png" alt="">
+                        <span>Table Games</span>
+                    </li>
+                    <li>
+                        <img src="images/poker.png" alt="">
+                        <span>Video Poker</span>
+                    </li>
+                    <li>
+                        <img src="images/more.png" alt="">
+                        <span>More</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="games-container">
+            <div class="loader">Loading...</div>
+            <ul>
+            </ul>
+            <div class="load-more">Load More</div>
+        </div>
+    </div>
+
+
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>
